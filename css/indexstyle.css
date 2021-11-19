@@ -1,0 +1,431 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Lora",sans-serif;
+    background-color: powderblue;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: blanchedalmond;
+}
+
+nav li{
+    display: inline;
+
+}
+nav li a{
+
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    padding: 3px 5% 3px 5%;
+    text-align: right;
+
+}
+
+.skip>a{
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    position: absolute;
+    background-color: blanchedalmond;
+    top:-20px;
+}
+.skip>a:focus{
+    top:0px;
+}
+#current_html{
+
+    border-style: inset;
+    padding: 1px 3px 1px 3px;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 3px;
+    border-color: aqua;
+    background-color: #E3E3E3;
+}
+a{
+    text-decoration: none;
+}
+header li{
+    margin: 5px 0 5px 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: lightblue ;
+    text-align: center;
+    padding: 10px;
+    font-family: "Raleway";
+
+}
+a:visited{
+    color: #551A8B;
+}
+a{
+    color: #551A8B;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+
+main h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.title{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+
+}
+.bascontent{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#self_introduction_selfie{
+    width: 40%;
+    height: 100%;
+    margin: 5% 5% 5% 5%;
+}
+#basic_information{
+    width: 80%;
+    height: 100%;
+    margin: auto 5% auto 5%;
+}
+
+
+.label{
+    background-color: #E3E3E3;
+    border-style: solid;
+    border-color: #E3E3E3;
+    border-width: 1px;
+    border-radius: 8px 8px 8px 8px;
+    display: inline-block;
+    margin: 0 3% 0 3%;
+}
+#Language, #hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plan{
+    align-self: flex-start;
+}
+
+
+@media screen and (min-width: 750px)
+{
+    /*for tablet*/
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        font-family: "Lora",sans-serif;
+        background-color: powderblue;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-self: center;
+        justify-content: space-between;
+        width:100%;
+        padding: 0;
+
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: blanchedalmond;
+    }
+
+    nav li{
+        display: inline;
+
+    }
+    nav li a{
+
+        font-family: 'Oswald', sans-serif;
+    }
+    nav{
+        padding: 3px 5% 3px 5%;
+        text-align: right;
+
+    }
+
+    .skip>a{
+        -webkit-transition: top 1s ease-out;
+        transition: top 1s ease-out;
+        position: absolute;
+        background-color: blanchedalmond;
+        top:-20px;
+    }
+    .skip>a:focus{
+        top:0px;
+    }
+    #current_html{
+
+        border-style: inset;
+        padding: 1px 3px 1px 3px;
+        border-radius: 8px 8px 8px 8px;
+        border-width: 3px;
+        border-color: aqua;
+        background-color: #E3E3E3;
+    }
+    a{
+        text-decoration: none;
+    }
+    header li{
+        margin: 5px 0 5px 0;
+        padding: 0;
+        font-size: 20px;
+    }
+
+
+    footer{
+        background-color: lightblue ;
+        text-align: center;
+        padding: 10px;
+        font-family: "Raleway";
+    }
+    main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    main h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: sans-serif;
+        margin-top: 15px;
+    }
+
+    .title{
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 9px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+
+
+    }
+    .bascontent{
+        display: flex;
+        flex-direction: row;
+    }
+    #self_introduction_selfie{
+        width: 40%;
+        height: 100%;
+        margin: 5% 5% 5% 5%;
+    }
+    #basic_information{
+        width: 50%;
+        height: 100%;
+        margin: auto 5% auto 5%;
+    }
+
+
+    .label{
+        background-color: #E3E3E3;
+        border-style: solid;
+        border-color: #E3E3E3;
+        border-width: 1px;
+        border-radius: 8px 8px 8px 8px;
+        display: inline-block;
+        margin: 0 3% 0 3%;
+    }
+    #Language, #hobbies{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+/*
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Lora",sans-serif;
+    background-color: powderblue;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: blanchedalmond;
+}
+
+nav li{
+    display: inline;
+
+}
+nav li a{
+
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    padding: 3px 5% 3px 5%;
+    text-align: right;
+
+}
+
+.skip>a{
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    position: absolute;
+    background-color: blanchedalmond;
+    top:-20px;
+}
+.skip>a:focus{
+    top:0px;
+}
+#current_html{
+
+    border-style: inset;
+    padding: 1px 3px 1px 3px;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 3px;
+    border-color: aqua;
+    background-color: #E3E3E3;
+}
+a{
+    text-decoration: none;
+}
+header li{
+    margin: 5px 0 5px 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: lightblue ;
+    text-align: center;
+    padding: 10px;
+    font-family: "Raleway";
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.title{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+
+}
+.bascontent{
+    display: flex;
+    flex-direction: row;
+}
+#self_introduction_selfie{
+    width: 40%;
+    height: 100%;
+    margin: 5% 5% 5% 5%;
+}
+#basic_information{
+    width: 50%;
+    height: 100%;
+    margin: auto 5% auto 5%;
+}
+
+
+.label{
+    background-color: #E3E3E3;
+    border-style: solid;
+    border-color: #E3E3E3;
+    border-width: 1px;
+    border-radius: 8px 8px 8px 8px;
+    display: inline-block;
+    margin: 0 3% 0 3%;
+}
+#Language, #hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+*/

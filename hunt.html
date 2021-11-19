@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/huntstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="graph/logo.png">
+    <title>Hunt</title>
+</head>
+<script>
+    function phone() {
+        alert("Hello! If you are using mobile, please place the phone HOZIRONTALLY!");
+    }
+</script>
+<body>
+<div class="container">
+    <div class="skip"><a href="#main">Jump to Content</a></div>
+    <header>
+        <img src="graph/caoshu.png" alt="grass script of 徐超">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="travel.html">FootPrint</a></li>
+                <li><a href="hunt.html" id="current_html">Hunt</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <h1>
+            <span>Hunt</span>
+        </h1>
+        <div class="title">
+            Introduction
+        </div>
+        <div class="groupintro">
+            <img src="graph/hunt/group.png" id="grouppic" alt="group photo">
+            <div class="Explain">
+
+                The hunt tasks serves as the ice-breaking activities which includes several gamified challenges.
+                We are group 15J, team hUmanX and the team members are Aditya Mankare, Angelica Tome, Chao Xu, Danni Xiao and Grace Song.
+                In the hunt, our group work together to decode some instructions, do observations and make decision on our group name and
+                potential project ranking lists.
+
+            </div>
+        </div>
+
+        <div class="huntcontent">
+
+
+
+            <div class="challenge">
+                <div class="challengecontent" >
+                    For Challenge 1, decode the following(click it to see the answer):
+                </div>
+                <div class="changedurl" onclick="myFunction1()">
+                    http://the full name of the male lead instructor of this
+                    course with no spaces [note: there are two SI 501 lead instructors this semester]].[the first three
+                    letters of the musical instrument that Bach’s Toccata and Fugue in D minor is typically performed
+                    on]/[number representing the philosophy and theory of science according to the library
+                    classification system developed by Melvil Dewey].[lower-case letters that look like an addition
+                    sign, a multiplication sign, an addition sign]
+                </div>
+                <script>
+                    function myFunction1() {
+                        document.getElementById("urlans1").style.color="#6B0000";
+                    }
+                </script>
+            </div>
+            <div class="urlans" id="urlans1">
+                <p>https://kentarotoyama.org/501.txt</p>
+            </div>
+
+            <div class="challenge huntwhite">
+                <div class="challengecontent">
+                    Based on the <a href="https://kentarotoyama.org/501.txt">decoded website</a> we gain from challenge 1,
+                    we need to decode the following puzzle for following challenges(click it to see the answer).
+                </div>
+                <div class="changedurl" onclick="myFunction2()">
+                    http://[same domain as the previous puzzle]/[first and last
+                    name of the female lead instructor of this course, written as one word without spaces and no
+                    capitalization]/[something we should all be wearing while indoors at the University of Michigan,
+                    that we normally would not have worn in 2018].[an informal word that means “physician”]
+                </div>
+                <script>
+                    function myFunction2() {
+                        document.getElementById("urlans2").style.color="#6B0000";
+                    }
+                </script>
+            </div>
+            <div class="urlans huntwhite" id="urlans2">
+                <p>https://kentarotoyama.org/melissachalmers/mask.doc</p>
+            </div>
+
+            <div class="challenge">
+                <div class="challengecontent">
+                    Now we have done enough with decoding url, but Dr. Kentaro seems to challenge us on different language.
+                    We are told to translate the hints in Chinese and search for further instructions(click it to see the translation).
+                </div>
+                <div class="changedurl" onclick="myFunction3()">
+                    去伯顿纪念塔北边二十米的公告亭
+                </div>
+                <script>
+                    function myFunction3() {
+                        document.getElementById("urlans3").style.color="#6B0000";
+                    }
+                </script>
+            </div>
+
+            <div class="urlans" id="urlans3">
+                <p>Go to the information booth that is twenty meters north of the Burton Memorial Tower.</p>
+            </div>
+
+            <div class="challenge huntwhite">
+                <div class="challengecontent">
+                    What we find in the position is another decoding task.
+                </div>
+                <div class="changedurl" onclick="myFunction4()">
+                    http://[Concatenation of the three words making up the
+                    first full sentence in the “01 SI501 Overview Contextual Inquiry and Consulting Foundations”].[Full
+                    domain name of popular content management system that names releases after jazz
+                    musicians]/[The product of 14th and 15th prime number]/[First day of the Fall semester this
+                    year]/[University of Michigan greeting, spelled with a hyphen]
+                </div>
+            </div>
+
+            <div class="urlans huntwhite" id="urlans4">
+                <p>https://considerairportsecurity.wordpress.com/2021/08/30/go-blue/</p>
+            </div>
+            <script>
+                function myFunction4() {
+                    document.getElementById("urlans4").style.color="#6B0000";
+                }
+            </script>
+        </div>
+
+    </main>
+    <footer>
+        <p>University of Michigan School of Information </p>
+        <p>&copy; Chao Xu - Web Design 2021</p>
+    </footer>
+</div>
+</body>
+</html>
